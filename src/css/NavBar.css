@@ -1,0 +1,32 @@
+.ProfileImage{
+    border-radius: 30px 40px;
+    width: 5vw;
+}
+
+.ProfileImageParent{
+    display: flex;
+}
+ 
+.Container{
+    display: flex;
+    margin-left: 5px;
+    padding-top: 15px;
+ 
+}
+
+.NavElements{
+    color: white;
+    text-align: center;
+
+}
+
+.NavElements ul{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0px;
+    display: flex;
+}
+
+li{
+    text-align: justify;
+}
