@@ -1,6 +1,6 @@
 
 .PageBorder{ 
-    border-top: 3px solid rgb(255, 255, 255);
+    border-top: 3px solid rgba(255, 255, 255, 0.085);
     width: 100%;
     
 }
