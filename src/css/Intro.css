@@ -4,7 +4,7 @@
 }
 
 .PageBorder{ 
-    border-top: 3px solid rgb(255, 255, 255);
+    border-top: 3px solid rgba(255, 255, 255, 0.172);
     width: 100%;
     
 }
@@ -19,7 +19,7 @@
     font-family: 'Nova Square', cursive;
     font-size: 35px;
     align-items: center;
-
+    
     display: flex;
     
     
@@ -37,7 +37,7 @@
     text-align: center;
     width: 80%;
     background-color: rgb(35, 35, 35);
-
+    
     background-image: linear-gradient(
         to right, 
         #0d6e5c,
@@ -47,16 +47,16 @@
         #0d6e5c
         );
         background-size: 200%;
-        animation: background-pan 10s linear infinite;
+        animation: background-pan 3s linear infinite;
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
-}
-
-.BackgroundBox:hover{
-    animation: background-pan 3s reverse linear infinite;
-
-    background-image: linear-gradient(
+    }
+    
+    .BackgroundBox:hover{
+        animation: background-pan 10s reverse linear infinite;
+        
+        background-image: linear-gradient(
         to right, 
         #0d6e5c,
         #064d50,
@@ -87,4 +87,16 @@
     border-radius: 30px 40px;
     width: 10vw;
     margin-top: 30px;
+}
+
+@media screen and (max-width: 704px ){
+    .MainContainer{
+        height: fit-content;
+
+
+    }
+    .BackgroundBox{
+        width: auto;
+        font-size: 30px;
+    }
 }
