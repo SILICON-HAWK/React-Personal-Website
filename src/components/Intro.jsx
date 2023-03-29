@@ -6,7 +6,7 @@ export default function Intro() {
       {/* <hr className='PageBorder' /> */}
       <div className="MainContainer">
       <div className="ProfileImageParent">
-        <img src="https://avatars.githubusercontent.com/u/93534675?v=4" alt="profile pic" className='ProfileImage' />
+      <img src="https://avatars.githubusercontent.com/u/93534675?v=4" alt="profile pic" className='ProfileImage' />
       </div>
       <div className='IntroPage'>
         <div className="parent">

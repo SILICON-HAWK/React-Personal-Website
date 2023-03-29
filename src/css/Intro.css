@@ -1,6 +1,6 @@
 .MainContainer{
-    display: flex;
-    height: 100vh;
+    display: block;
+    min-height: 100vh;
 }
 
 .PageBorder{ 
@@ -29,7 +29,7 @@
 .parent{
     display: flex;
     justify-content: center;
-    margin-right: 7vh;
+    margin-left: 7vh;
 }
 
 
@@ -85,7 +85,7 @@
 
 .ProfileImage{
     border-radius: 30px 40px;
-    width: 10vw;
+    max-width: 10vw;
     margin-top: 30px;
 }
 
