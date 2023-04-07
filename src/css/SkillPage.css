@@ -11,7 +11,8 @@
     color: aliceblue;
     min-height: 100vh;
     width: 100%;
-
+    margin-bottom: 40vh;
+    
 }
 
 
@@ -29,7 +30,8 @@
         color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
-    
+
+    margin-top: 23vh;
 }
 
 
@@ -71,8 +73,47 @@ img{
 
 .SkillBox > div > h1{
     text-align: center;
+    font-size: 2em;
 }
 
 #Linux{
     height: 120px;
 }
+
+#TitleSkillPage{
+    margin-top: 30vh;
+}
+
+#Platform{
+    margin-top: 0;
+}
+
+#TitleSkillPage{
+    font-size: 75px;
+}
+
+@media screen and (max-width: 683px) {
+    .SkillBox > div > img{
+        width: 65px;
+        height: auto;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .SkillBox > div > h1{
+        font-size: 15px;
+    }
+
+    #Linux{
+        width: auto;
+        height: 80px;
+    }
+    #TitleSkillPage{
+        margin-top: 10vh;
+    }
+    .BackgroundClip{
+        margin-top: 10vh;
+    }
+}
+

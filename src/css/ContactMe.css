@@ -1,0 +1,44 @@
+*{
+    color: aliceblue;
+}
+
+.ContackMe{
+    margin-top: 15vh;
+
+}
+
+.ContactContainer > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh;
+    
+}
+
+.ContactMe > input, textarea{
+    margin: 20px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 20px;
+    border: none;
+    border-bottom: 5px solid grey;
+    background-color: transparent;
+    outline: none;
+    font-size: 25px;
+}
+
+
+.ContactMeTitle{
+    font-size: 75px;
+    text-align: center;
+}
+.Submit{
+    font-size: 30px !important;
+    padding: 30px;
+    border: 1px solid grey !important;
+}
+
+.Submit:hover{
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+}

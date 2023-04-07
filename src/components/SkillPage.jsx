@@ -3,8 +3,11 @@ import '../css/SkillPage.css'
 export default function SkillPage() {
   return (
     <>
-      <hr className='PageBorder' />
+      {/* <hr className='PageBorder' /> */}
       <div className='Container' id='SkillPageMainContainer'>
+        <div className="BackgroundClip" id="TitleSkillPage">
+          SKILLS PAGE
+        </div>
         <div className="BackgroundClip">
         I enjoy working with and have experiencing in using an array[] of technologies that help me solve different problems with quality and efficiency.
         </div>
@@ -46,7 +49,7 @@ export default function SkillPage() {
             <h1>NODE JS</h1>
           </div>
         </div>
-        <div className="BackgroundClip">
+        <div className="BackgroundClip" id='Platform'>
           These are platforms that I have used before and am comfortabe in using
         </div>
         <div className="SkillBox" id='Platforms'>

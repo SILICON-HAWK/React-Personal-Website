@@ -2,4 +2,15 @@
 body{
     background-color: black;
     font-family: 'Nova Square', cursive;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(36, 36, 36);
+}
+
+::-webkit-scrollbar-thumb{
+    width: 8px;
+    background-color: burlywood;
 }
