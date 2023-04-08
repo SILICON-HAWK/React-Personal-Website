@@ -19,10 +19,7 @@
     min-height: 100vh;
 }
 
-::-webkit-scrollbar{
-    width: 10px;
-    color: rgb(84, 84, 84);
-}
+
 
 @keyframes background-pan{
     from{

@@ -1,6 +1,7 @@
 .MainContainer{
     display: block;
     min-height: 100vh;
+    scroll-snap-type: y mandatory;
 }
 
 .PageBorder{ 
@@ -29,47 +30,51 @@
 .parent{
     display: flex;
     justify-content: center;
-    margin-left: 7vh;
+    margin: 5vh;
 }
 
 
 .BackgroundBox{
     text-align: center;
     width: 80%;
-    background-color: rgb(35, 35, 35);
     
     background-image: linear-gradient(
         to right, 
-        #0d6e5c,
-        #064d50,
-        #25f7be,
-        #00d6a9,
-        #0d6e5c
+        #00ffd0,
+        #00ffd0,
+        #00d6ff,
+        #00ffd0,
+        #00ffd0
         );
-        background-size: 200%;
-        animation: background-pan 3s linear infinite;
-        color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-    }
+    background-size: 200%;
+    animation: background-pan 3s linear infinite;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    opacity: 0.6;
     
-    .BackgroundBox:hover{
-        animation: background-pan 10s reverse linear infinite;
-        
-        background-image: linear-gradient(
-        to right, 
-        #0d6e5c,
-        #064d50,
-        #25f7be,
-        #00d6a9,
-        #0d6e5c
-        );
+}
+    
+/* .BackgroundBox:hover{
+    animation: background-pan 3s reverse linear infinite;
+    
+    background-image: linear-gradient(
+        to left, 
+        #00ffd0cb,
+        #00ffd0cb,
+        #00d6ffcb,
+        #00ffd0cb,
+        #00ffd0cb
+    );
 
     background-size: 200%;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-}
+
+} */
 
 
 
@@ -84,9 +89,14 @@
 }
 
 .ProfileImage{
-    border-radius: 30px 40px;
-    max-width: 10vw;
+    border-radius: 180px 180px;
     margin-top: 30px;
+}
+.ProfileImageParent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10vh;
 }
 
 @media screen and (max-width: 704px ){
@@ -98,5 +108,29 @@
     .BackgroundBox{
         width: auto;
         font-size: 30px;
+        margin-left: 0px;
     }
+
+}
+
+.Title{
+    font-size: 75px;
+    
+        animation: background-pan 2s reverse linear infinite;
+        
+        background-image: linear-gradient(
+        to left, 
+        #00ffd0cb,
+        #00ffd0cb,
+        #00d6ffcb,
+        #00d6ffcb,
+        #00ffd0cb,
+        #00ffd0cb
+        );
+
+    background-size: 200%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
 }
