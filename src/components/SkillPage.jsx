@@ -8,7 +8,7 @@ export default function SkillPage() {
         <div className="BackgroundClip" id="TitleSkillPage">
           SKILLS PAGE
         </div>
-        <div className="BackgroundClip">
+        <div className="BackgroundClip textstuff">
         I enjoy working with and have experiencing in using an array[] of technologies that help me solve different problems with quality and efficiency.
         </div>
         <div className="SkillBox">

@@ -4,7 +4,7 @@ import '../css/NavBar.css'
 export default function NavBar() {
     return (
 
-        <div className='Container'>
+        <div className='NavContainer'>
             <div className="ProfileImageParent">
                 <img src="https://avatars.githubusercontent.com/u/93534675?v=4" alt="profile pic" className='ProfileImage' />
                 <div className="NavElements">
