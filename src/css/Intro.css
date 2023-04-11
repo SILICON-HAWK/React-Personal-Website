@@ -1,41 +1,12 @@
 .MainContainer{
     display: block;
     min-height: 100vh;
-    scroll-snap-type: y mandatory;
-}
 
-.PageBorder{ 
-    border-top: 3px solid rgba(255, 255, 255, 0.172);
-    width: 100%;
-    
-}
-
-/* .IntroContainer{
-    display: flex;
-} */
-
-
-.IntroPage{
-    color: aliceblue;
-    font-family: 'Nova Square', cursive;
-    font-size: 35px;
-    align-items: center;
-    
-    display: flex;
-    
-    
 }
 
 
-.parent{
-    display: flex;
-    justify-content: center;
-    margin: 5vh;
-}
-
-
-.BackgroundBox{
-    text-align: center;
+/* .BackgroundBox{
+    margin-left: 20px;
     width: 80%;
     
     background-image: linear-gradient(
@@ -55,15 +26,16 @@
     scroll-snap-stop: always;
     opacity: 0.6;
     
-}
-    
-/* .BackgroundBox:hover{
-    animation: background-pan 3s reverse linear infinite;
+} */
+
+.BackgroundBox > li{
+    animation: background-pan 10s linear infinite;
     
     background-image: linear-gradient(
         to left, 
         #00ffd0cb,
         #00ffd0cb,
+        #00d6ffcb,
         #00d6ffcb,
         #00ffd0cb,
         #00ffd0cb
@@ -73,9 +45,10 @@
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    padding-top: 15px;
+    list-style: none;
 
-} */
-
+}
 
 
 @keyframes background-pan{
@@ -87,32 +60,6 @@
         background-position: 0% center;
     }
 }
-
-.ProfileImage{
-    border-radius: 180px 180px;
-    margin-top: 30px;
-}
-.ProfileImageParent{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10vh;
-}
-
-@media screen and (max-width: 704px ){
-    .MainContainer{
-        height: fit-content;
-
-
-    }
-    .BackgroundBox{
-        width: auto;
-        font-size: 30px;
-        margin-left: 0px;
-    }
-
-}
-
 .Title{
     font-size: 75px;
     
@@ -133,4 +80,68 @@
     -webkit-background-clip: text;
     background-clip: text;
     text-align: center;
+}
+
+.ProfileImage{
+    height: fit-content;
+    width: 40vw;
+    
+}
+
+.ProfileImageParent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 10vh;
+}
+
+.PageBorder{ 
+    border-top: 3px solid rgba(255, 255, 255, 0.172);
+    width: 100%;
+    
+}
+
+/* .IntroContainer{
+    display: flex;
+} */
+
+
+.IntroPage{
+    color: aliceblue;
+    font-family: 'Nova Square', cursive;
+    font-size: 35px;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+
+.parent{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 790px ){
+    .Content{
+        height: fit-content;
+        display: block;
+    }
+    .BackgroundBox{
+        width: auto;
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .parent{
+        display: block;
+    }
 }

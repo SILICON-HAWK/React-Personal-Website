@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 server.js
 src/components/FormData.js
+src/scrapped
+src/components/tetris.jsx

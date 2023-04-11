@@ -7,11 +7,12 @@
 
 
 .Container{
+    display: block;
     font-size: 35px;
     color: aliceblue;
     min-height: 100vh;
     width: 100%;
-    margin-bottom: 40vh;
+    margin-bottom: 15vh;
     
 }
 
@@ -116,4 +117,3 @@ img{
         margin-top: 10vh;
     }
 }
-
